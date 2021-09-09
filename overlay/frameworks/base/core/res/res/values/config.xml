@@ -438,4 +438,9 @@
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
 
+    <!-- From https://github.com/lineageos4microg/docker-lineage-cicd/blob/master/src/signature_spoofing_patches/frameworks_base_config.xml#L21 -->
+    <!-- Force-enable the location overlays -->
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
+    <bool name="config_enableFusedLocationOverlay" translatable="false">true</bool>
+
 </resources>
